@@ -97,6 +97,9 @@ flex-direction: column;
  display: flex;
  flex-direction: column;
  align-items: center;
+ max-width: 600px;
+ margin: 0 auto;
+ text-align: center;
 }
 
 .about-me__picture--mask {
@@ -110,4 +113,12 @@ flex-direction: column;
 
 .about-me__picture {
   width: 100%;
+}
+
+.about-me__info--title {
+  margin-bottom: 16px;
+}
+.about-me__info--para {
+  font-size: 20px;
+  margin-bottom: 28px;
 }
