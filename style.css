@@ -33,6 +33,10 @@ li {
   flex: 1;
 }
 
+.container {
+  padding: 50px 0; 
+}
+
 .row {
   width: 100%;
   max-width: 800px;
@@ -43,6 +47,13 @@ li {
   color: #6030b1;
 }
 
+section:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.section__title {
+  margin-bottom: 20px;
+}
 /*NAVIGATION BAR*/
 
 nav {
@@ -141,4 +152,40 @@ flex-direction: column;
   display: flex;
   align-items: center;
   margin-top: 32px;
+}
+
+.about-me__img {
+  width: 100%;
+}
+
+/* Technology Stack */
+
+.language__img {
+  width: 100%;
+  max-width: 100px;
+}
+
+.language__img:hover {
+  filter: brightness(80%);
+  opacity: 0.86;
+  transform: scale(0.9);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.language {
+   width: 25%;
+}
+
+.language__img--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 16px;
+}
+
+.language__list {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
