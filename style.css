@@ -227,14 +227,14 @@ flex-direction: column;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #1c1d25;
+  background-color: #000002;
   opacity: 0;
   transition: opacity 450ms ease;
   z-index: 2.2;
 }
 
 .project:hover .project__wrapper:before {
-  opacity: 0.579;
+  opacity: 0.5;
 }
 
 .project:hover .project__img {
