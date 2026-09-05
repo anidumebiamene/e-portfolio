@@ -218,6 +218,7 @@ flex-direction: column;
   box-shadow: 0 20px 84px rgba(0, 0, 0, 0.45);
   overflow: hidden;
   position: relative;
+  z-index: 1;
 }
 
 .project__wrapper:before {
@@ -230,7 +231,7 @@ flex-direction: column;
   background-color: #000002;
   opacity: 0;
   transition: opacity 450ms ease;
-  z-index: 2.2;
+  z-index: 4;
 }
 
 .project:hover .project__wrapper:before {
