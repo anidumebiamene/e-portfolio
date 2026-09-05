@@ -204,3 +204,44 @@ flex-direction: column;
 .language:hover .language__name {
   transform: scale(1);
 }
+
+/* PROJECTS */
+
+.project__img {
+  width: 100%;
+  transition: all 450ms ease;
+}
+
+.project__wrapper {
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 0 20px 84px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  position: relative;
+}
+
+.project__wrapper:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1c1d25;
+  opacity: 0;
+  transition: opacity 450ms ease;
+  z-index: 2.2;
+}
+
+.project:hover .project__wrapper:before {
+  opacity: 0.579;
+}
+
+.project:hover .project__img {
+  transform: scale(1.078);
+  filter:blur(5.67px);
+}
+
+.project__list {
+ padding-top: 40px;
+}
